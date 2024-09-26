@@ -4,7 +4,7 @@ Welcome to my **HTML & CSS Projects** repository! This is a collection of projec
 
 ## 🚀 About the Projects
 
-In this repository, you'll find a variety of projects demonstrating different HTML and CSS techniques such as:
+Soon In this repository, you'll find a variety of projects demonstrating different HTML and CSS techniques such as:
 
 - Responsive design using Flexbox and CSS Grid 🌐
 - Modern UI/UX design principles 🎨
