@@ -1,30 +1,31 @@
 # Profile Card UI Design
 
-![Profile Card UI](<images/Screenshot%20(9).png>)
-![Profile Card UI](<images/Screenshot%20(7).png>)
-![Profile Card UI](<images/Screenshot%20(8).png>)
-
 ## Description
-
-This project is a visually appealing Profile Card UI design created using HTML and CSS. The card features a front and back layout, showcasing essential information in a modern and stylish manner. It is inspired by credit card designs and offers a unique interactive experience with a flip effect on hover.
+This project features a stylish and interactive profile card UI design created using HTML and CSS. The card simulates a credit card layout, showcasing a card number, holder name, and additional details, making it suitable for showcasing user profiles or financial applications.
 
 ## Features
-
-- **Responsive Design**: The layout adapts to various screen sizes, providing an optimal viewing experience.
-- **Hover Effect**: The card flips to reveal additional information on the back side when hovered over.
-- **Custom Styling**: Uses Google Fonts for modern typography and CSS for visually appealing styles.
+- Front and back card design with a flip animation
+- Display of card number and holder's name
+- Validity information for the card
+- Customer service contact details on the back
+- Attractive design with gradients and a semi-transparent effect
 
 ## Technologies Used
-
 - HTML
 - CSS
 - Google Fonts (Poppins)
 
-## Installation
+## Preview
+![Profile Card Preview](images/Screenshot%20(9).png)  
+![Profile Card Preview](images/Screenshot%20(7).png)  
+![Profile Card Preview](images/Screenshot%20(8).png)  
 
-To view the project locally, follow these steps:
+## Usage
+To use this profile card in your project:
+1. Clone the repository or download the files.
+2. Open `index.html` in your web browser.
+3. Customize the content in the HTML and CSS files as per your requirements.
 
-1. Clone this repository:
-   ```bash
-   git@github.com:CodeWithDanyal/HTML-CSS-Projects.git
-   ```
+## Author
+**Danyal Khan**  
+[GitHub Profile](https://github.com/CodeWithDanyal)
