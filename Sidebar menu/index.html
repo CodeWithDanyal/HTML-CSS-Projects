@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Code by Danyal | https://github.com/CodeWithDanyal -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card UI Design</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BoxIcons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <section class="sidebar">
+      <div class="logo">
+        <h1>CodingLab</h1>
+        <img class="close" src="Images/close.png" alt="close" height="16px" />
+        <img class="menu" src="Images/menus.png" alt="close" height="30px" />
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Shortcut</a></li>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+        <div class="social-icons">
+          <i class="bx bxl-facebook"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram"></i>
+          <i class="bx bxs-message"></i>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    let closeBtn = document.querySelector(".close");
+    let menuBtn = document.querySelector(".menu");
+    let sidebar = document.querySelector(".sidebar");
+
+    menuBtn.addEventListener("click", function () {
+      sidebar.classList.add("active");
+      menuBtn.classList.add("activemenu")
+    });
+
+    closeBtn.addEventListener("click", function () {
+      sidebar.classList.remove("active");
+      menuBtn.classList.remove("activemenu")
+    });
+  </script>
+</html>

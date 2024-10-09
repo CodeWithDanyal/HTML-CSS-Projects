@@ -1,0 +1,113 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url(Images/apple-keyboard-next-to-mouse.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 320px;
+  min-width: 310px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  position: relative;
+  transform: translateX(-320px);
+  transition: transform 0.4s linear;
+}
+
+.sidebar.active {
+  transform: translateX(0px);
+}
+
+.menu {
+  display: block;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  position: absolute;
+  right: -30px;
+  background-color: white;
+}
+
+.activemenu {
+  visibility: hidden;
+  opacity: 0;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  padding: 20px;
+  color: white;
+}
+.close {
+  float: right;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.nav-links {
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid white;
+  padding: 20px 0px;
+}
+
+ul > li {
+  padding: 10px;
+  list-style: none;
+}
+
+li:hover {
+  border: 1px solid rgba(245, 222, 179, 0.763);
+}
+
+ul > li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.social-icons > i {
+  transition: all 0.2s linear;
+  opacity: 0.5;
+}
+.social-icons > i:hover {
+  color: white;
+  opacity: 1;
+}
