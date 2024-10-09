@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profile Card UI Design</title>
+    <title>Responsive Login Form</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- BoxIcons CSS -->
@@ -13,7 +13,26 @@
       rel="stylesheet"
     />
   </head>
-<body>
-    
-</body>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Login Form</h1>
+      </div>
+      <form action="">
+        <div class="emailBox">
+          <i class="bx bxs-user"></i>
+          <input type="text" id="email" placeholder="Email or Phone" required />
+        </div>
+        <div class="passBox">
+          <i class="bx bxs-lock-alt"></i>
+          <input type="text" id="pass" placeholder="Password" required />
+        </div>
+        <span class="forgot"><a href="">Forgot Password?</a></span>
+        <button type="submit">Login</button>
+      </form>
+
+      <div class="signup">
+        <p>Not a member?<span class="signup-btn"><a href="">Signup now</a></span></p>
+      </div>
+  </body>
 </html>
