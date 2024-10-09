@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  height: 200px;
+  border-radius: 15px;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  padding: 20px;
+  min-width: 310px;
+}
+
+.top-part {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.logo > img,
+.chip > img {
+  height: 30px;
+}
+
+.mid-part {
+  margin-bottom: 15px;
+}
+
+.mid-part > h4 {
+  font-size: 12px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.mid-part > p {
+  opacity: 0.8;
+  font-weight: 500;
+  word-spacing: 5px;
+}
+
+.last-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-part > h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+}
+
+.expire-date {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  bottom: 10px;
+  font-size: 13px;
+}
