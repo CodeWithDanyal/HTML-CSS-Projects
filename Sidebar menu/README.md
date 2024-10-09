@@ -20,7 +20,7 @@ A simple, elegant sidebar menu with navigation links and social media icons. The
 - Google Fonts (Poppins)
 
 ## Preview
-
+<!-- Project preview -->
 ![Sidebar Menu Preview](<Images/Screenshot%20(12).png>)
 ![Sidebar Menu Preview](<Images/Screenshot%20(13).png>)
 
