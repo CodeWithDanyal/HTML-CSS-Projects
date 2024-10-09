@@ -15,8 +15,8 @@ This project showcases a clean and modern profile card UI design created using H
 - Google Fonts (Poppins)
 
 ## Preview
-![Profile Card Preview](images/Screenshot(11).png)  
-![Profile Card Preview](images/Screenshot(10).png)  
+![Profile Card Preview](images/previewTwo.png)  
+![Profile Card Preview](images/previewOne.png)  
 
 ## Usage
 To use this profile card in your project:
